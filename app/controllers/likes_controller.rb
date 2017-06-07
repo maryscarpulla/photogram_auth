@@ -1,8 +1,7 @@
 class LikesController < ApplicationController
   def index
     @likes = Like.all
-
-    render("likes/index.html.erb")
+    render("likes/index.html.erb")/
   end
 
   def show

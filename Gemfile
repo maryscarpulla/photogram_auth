@@ -51,3 +51,4 @@ gem 'faker', group: [:test, :development]
 gem 'shoulda', group: [:test, :development]
 gem 'selenium-webdriver', group: [:test, :development]
 gem 'database_cleaner', group: [:test, :development]
+gem 'bcrypt', platforms: :ruby

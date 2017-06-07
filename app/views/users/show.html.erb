@@ -1,0 +1,13 @@
+<div class="page-header">
+  <h3><%= current_user.username %></h3>
+</div>
+
+<% @user.photos.each do |photo| %>
+<tr>
+  <td><img src = "<%= photo.image %>"></td>
+  <td><%= photo.caption %></td>
+  <td><%= photo.user_id %></td>
+  <td><%= photo.comments %></td>
+
+</tr>
+<% end %>
